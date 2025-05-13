@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/degaswifi/full_degaswifi.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME := degaswifi \
@@ -10,4 +10,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="samsung/degaswifi/degaswifi:4.4.2/KOT49H/T230RUEU0CNI1:user/release-keys" \
     PRIVATE_BUILD_DESC="degaswifiue-user 4.4.2 KOT49H T230RUEU0CNI1 release-keys"
 
-PRODUCT_NAME := cm_degaswifi
+PRODUCT_NAME := lineage_degaswifi
